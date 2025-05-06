@@ -1,4 +1,4 @@
-package com.nuamx.aluraflix.modelos;
+package com.nuamx.screenmatch.modelos;
 
 public class Serie extends Titulo {
     int temporadas;

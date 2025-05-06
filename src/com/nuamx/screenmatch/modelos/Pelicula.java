@@ -1,6 +1,8 @@
-package com.nuamx.aluraflix.modelos;
+package com.nuamx.screenmatch.modelos;
 
-public class Pelicula extends Titulo {
+import com.nuamx.screenmatch.calculos.Clasificacion;
+
+public class Pelicula extends Titulo implements Clasificacion {
     private String director;
 
     public String getDirector() {
@@ -9,5 +11,10 @@ public class Pelicula extends Titulo {
 
     public void setDirector(String director) {
         this.director = director;
+    }
+
+    @Override
+    public int getClasificaion() {
+        return (int) average();
     }
 }

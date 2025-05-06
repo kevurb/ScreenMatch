@@ -1,4 +1,4 @@
-package com.nuamx.aluraflix.modelos;
+package com.nuamx.screenmatch.modelos;
 
 public class Titulo {
         // el packeage debe tipar los atributos y metodos.
